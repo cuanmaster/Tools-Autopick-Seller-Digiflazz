@@ -1,1 +1,74 @@
-var _0x22b20a=_0x2995;(function(_0x3a4e2f,_0x193b2d){var _0x3c09c7=_0x2995,_0x57d1a7=_0x3a4e2f();while(!![]){try{var _0x4da916=-parseInt(_0x3c09c7(0xa3))/0x1*(parseInt(_0x3c09c7(0xac))/0x2)+parseInt(_0x3c09c7(0xa6))/0x3+-parseInt(_0x3c09c7(0x9a))/0x4+parseInt(_0x3c09c7(0xab))/0x5+parseInt(_0x3c09c7(0xb1))/0x6+-parseInt(_0x3c09c7(0x99))/0x7*(-parseInt(_0x3c09c7(0x9d))/0x8)+-parseInt(_0x3c09c7(0xa0))/0x9*(parseInt(_0x3c09c7(0xa1))/0xa);if(_0x4da916===_0x193b2d)break;else _0x57d1a7['push'](_0x57d1a7['shift']());}catch(_0x367d79){_0x57d1a7['push'](_0x57d1a7['shift']());}}}(_0x3be9,0x201cb),console[_0x22b20a(0xae)](_0x22b20a(0xaa)));function acc(){var _0x4d57a4=_0x22b20a,_0x2b4dac=document['querySelector']('.el-message-box__btns\x20.el-button.el-button--default.el-button--primary');_0x2b4dac&&_0x2b4dac[_0x4d57a4(0x98)]();}const wait=_0x271b0b=>new Promise(_0x47cc30=>setTimeout(_0x47cc30,_0x271b0b));async function showAllBtn(){var _0x1fa1f6=_0x22b20a,_0x524949=document[_0x1fa1f6(0x9f)](_0x1fa1f6(0x9c));for(let _0x39376c of _0x524949){_0x39376c['click'](),await wait(0x64);}console['log']('Menampilkan\x20layanan\x20sebanyak\x20',_0x524949['length']);}async function deleteAll(){var _0x5da806=_0x22b20a,_0x1c5608=document[_0x5da806(0x9f)](_0x5da806(0x9c));for(let _0x4df300 of _0x1c5608){acc(),await wait(0x3e8);}console[_0x5da806(0xae)]('Menghapus\x20layanan\x20sebanyak\x20',_0x1c5608[_0x5da806(0xa9)]);}function _0x2995(_0x174f13,_0x33519e){var _0x3be902=_0x3be9();return _0x2995=function(_0x299593,_0x538d8d){_0x299593=_0x299593-0x98;var _0x7933c3=_0x3be902[_0x299593];return _0x7933c3;},_0x2995(_0x174f13,_0x33519e);}async function postDelete(){var _0x3652d7=_0x22b20a;await showAllBtn(),console[_0x3652d7(0xae)](_0x3652d7(0xa5)),await deleteAll(),console['log']('BTN\x20SELESAI\x20DIHAPUS\x20SEMUA');}async function childButton(){var _0x7d28c6=_0x22b20a,_0x145195=document['querySelectorAll'](_0x7d28c6(0xaf)),_0x4dc406=Array[_0x7d28c6(0xa4)](_0x145195)[_0x7d28c6(0xad)](_0xa86f53=>{var _0x7f901a=_0x7d28c6,_0x468737=_0xa86f53[_0x7f901a(0x9b)](_0x7f901a(0xa2));return _0x468737&&window['getComputedStyle'](_0x468737)['display']!==_0x7f901a(0xa8);});for(let _0xea5a9e of _0x4dc406){console[_0x7d28c6(0xae)](_0xea5a9e),_0xea5a9e['click'](),await wait(0x7d0),await postDelete();}}async function processButtons(){var _0x3f9026=_0x22b20a,_0x58a4fb=document['querySelectorAll'](_0x3f9026(0xb0)),_0x49b5ad=Array[_0x3f9026(0xa4)](_0x58a4fb)[_0x3f9026(0xad)](_0x16909a=>{var _0x9ff63f=_0x3f9026,_0xc11dbf=_0x16909a[_0x9ff63f(0x9b)](_0x9ff63f(0xa2));return _0xc11dbf&&window[_0x9ff63f(0xa7)](_0xc11dbf)[_0x9ff63f(0x9e)]!==_0x9ff63f(0xa8);});for(let _0x299727 of _0x49b5ad){await childButton(),_0x299727[_0x3f9026(0x98)](),await wait(0x7d0),await childButton();}}processButtons();function _0x3be9(){var _0x8bb4b4=['none','length','\x0a/**********************************************\x0a\x20*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*\x0a\x20*\x20\x20\x20\x20\x20\x20\x20\x20Created\x20By:\x20AMR\x20CODE\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*\x0a\x20*\x20\x20\x20\x20\x20\x20\x20\x20Visit:\x20https://fb.com/amir.ofc01\x20\x20\x20*\x0a\x20*\x20\x20\x20\x20\x20\x20\x20\x20Tools\x20Gratis,\x20Tidak\x20Dijual\x20Belikan\x20*\x0a\x20*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*\x0a\x20**********************************************/\x0a','664755jIEvQy','2Ehmxbm','filter','log','.el-tab-pane\x20>\x20span\x20>\x20button.el-button.el-button--info','.el-tab-pane\x20>\x20span\x20>\x20button.el-button.el-button--primary','1336974pzCMus','click','7luMWaU','264528eTsjcG','closest','.el-button.el-button--danger\x20i.el-icon-delete','1229944wSDtTH','display','querySelectorAll','18MRxoaq','1027210uzShTT','.el-tab-pane','237819XeEVmv','from','BTN\x20SELESAI\x20DISHOW\x20SEMUA','394203OqFOnQ','getComputedStyle'];_0x3be9=function(){return _0x8bb4b4;};return _0x3be9();}
+console.log(`
+\t/**********************************************
+\t *                                            *
+\t *        Created By: AMR CODE               *
+\t *        Decoded By: UNICODE               *
+\t *        Visit: https://fb.com/amir.ofc01   *
+\t *        Tools Gratis, Tidak Dijual Belikan *
+\t *                                            *
+\t **********************************************/
+`);
+
+function confirmDelete() {
+    const deleteButton = document.querySelector('.el-message-box__btns .el-button.el-button--default.el-button--primary');
+    if (deleteButton) deleteButton.click();
+}
+
+const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+async function showAllButtons() {
+    const infoButtons = document.querySelectorAll('.el-tab-pane > span > button.el-button.el-button--info');
+    for (let button of infoButtons) {
+        button.click();
+        await wait(100);
+    }
+    console.log('Menampilkan layanan sebanyak', infoButtons.length);
+}
+
+async function deleteAllServices() {
+    const deleteIcons = document.querySelectorAll('.el-tab-pane > span > button.el-button.el-button--info');
+    for (let icon of deleteIcons) {
+        confirmDelete();
+        await wait(1000);
+    }
+    console.log('Menghapus layanan sebanyak', deleteIcons.length);
+}
+
+async function handlePostDelete() {
+    await showAllButtons();
+    console.log('BTN SELESAI DISHOW SEMUA');
+    await deleteAllServices();
+    console.log('BTN SELESAI DIHAPUS SEMUA');
+}
+
+async function handleChildButtons() {
+    const primaryButtons = document.querySelectorAll('.el-tab-pane > span > button.el-button.el-button--primary');
+    const visibleButtons = Array.from(primaryButtons).filter(btn => {
+        const parent = btn.closest('.el-button.el-button--danger i.el-icon-delete');
+        return parent && window.getComputedStyle(parent).display !== 'none';
+    });
+
+    for (let button of visibleButtons) {
+        console.log(button);
+        button.click();
+        await wait(2000);
+        await handlePostDelete();
+    }
+}
+
+async function processAllButtons() {
+    const infoButtons = document.querySelectorAll('.el-tab-pane > span > button.el-button.el-button--info');
+    const visibleButtons = Array.from(infoButtons).filter(btn => {
+        const parent = btn.closest('.el-button.el-button--danger i.el-icon-delete');
+        return parent && window.getComputedStyle(parent).display !== 'none';
+    });
+
+    for (let button of visibleButtons) {
+        await handleChildButtons();
+        button.click();
+        await wait(2000);
+        await handleChildButtons();
+    }
+}
+
+processAllButtons();
